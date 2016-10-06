@@ -4,9 +4,10 @@
  */
 
 exports.hello = function (name) {
+  string Name = name
   if (!name) { // if no name
     return "Hello, World!"
   } else {
-    return "name"
+    return "Hello," + Name
   }
 }
