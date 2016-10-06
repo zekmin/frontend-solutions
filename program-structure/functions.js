@@ -7,6 +7,6 @@
  */
 
 exports.ageOnVenus = function (ageInSeconds) {
-    VenusRealAge = ageInSeconds/31557600 * 1/0.61519726
+    VenusRealAge = ageInSeconds/31557600/0.61519726
   return VenusRealAge
 }
