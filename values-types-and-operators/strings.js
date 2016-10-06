@@ -6,10 +6,9 @@
 
 
 exports.hello = function (name) {
-  String Name = name
   if (!name) { // if no name
     return "Hello, World!"
   } else {
-    return "Hello," + Name + "!"
+    return "Hello,name!"
   }
 }
