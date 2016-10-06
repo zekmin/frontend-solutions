@@ -5,7 +5,7 @@
 
 
 exports.heyBob = function (words) {
-  if words.endsWith("?") {
+  if words.endsWith?("?") {
     return "Sure."
   }
   if words == words.toUpperCase {
