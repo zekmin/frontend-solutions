@@ -8,5 +8,5 @@
 
 exports.ageOnVenus = function (ageInSeconds) {
   var VenusRealAge = ageInSeconds/31557600/0.61519726
-  return VenusRealAge
+  return Math.round(VenusRealAge)
 }
