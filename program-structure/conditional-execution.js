@@ -8,7 +8,7 @@ exports.heyBob = function (words) {
   if words.endsWith("?") {
     return "Sure."
   }
-  if words == words.toUpperCase {
+  if words == words.upcase {
     return "Whoa, chill out!"
   }
   if (!words) {
