@@ -9,7 +9,7 @@
 exports.rank = function (grade) {
   if (grade < 60) {
     return 'Average'
-  } else if (grade >= 60 and grade < 90) {
+  } else if (grade >= 60 && grade < 90) {
     return 'Good'
   } else {
     return 'Excellent'
