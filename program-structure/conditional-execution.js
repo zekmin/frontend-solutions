@@ -5,10 +5,10 @@
 
 
 exports.heyBob = function (words) {
-    if words.endswith('?') {
+    if words.endsWith('?') {
     return "Sure."
   }
-  if words == words.toUpperCase {
+  if words == words.toUpperCase() {
     return "Whoa, chill out!"
   }
   if (!words) {
